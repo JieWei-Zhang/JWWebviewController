@@ -15,6 +15,7 @@
 		5A069DE61CB75A460014E66F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A069DE41CB75A460014E66F /* LaunchScreen.storyboard */; };
 		5A069DF11CB75A460014E66F /* JWWebviewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A069DF01CB75A460014E66F /* JWWebviewControllerTests.m */; };
 		5A069DFC1CB75A460014E66F /* JWWebviewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A069DFB1CB75A460014E66F /* JWWebviewControllerUITests.m */; };
+		5A069E0B1CB75A8F0014E66F /* JWWebviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A069E0A1CB75A8F0014E66F /* JWWebviewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5A069DF71CB75A460014E66F /* JWWebviewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWWebviewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A069DFB1CB75A460014E66F /* JWWebviewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWWebviewControllerUITests.m; sourceTree = "<group>"; };
 		5A069DFD1CB75A460014E66F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A069E091CB75A8F0014E66F /* JWWebviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWWebviewController.h; sourceTree = "<group>"; };
+		5A069E0A1CB75A8F0014E66F /* JWWebviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWWebviewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				5A069DDA1CB75A460014E66F /* AppDelegate.m */,
 				5A069DDC1CB75A460014E66F /* ViewController.h */,
 				5A069DDD1CB75A460014E66F /* ViewController.m */,
+				5A069E091CB75A8F0014E66F /* JWWebviewController.h */,
+				5A069E0A1CB75A8F0014E66F /* JWWebviewController.m */,
 				5A069DDF1CB75A460014E66F /* Main.storyboard */,
 				5A069DE21CB75A460014E66F /* Assets.xcassets */,
 				5A069DE41CB75A460014E66F /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				5A069DDE1CB75A460014E66F /* ViewController.m in Sources */,
 				5A069DDB1CB75A460014E66F /* AppDelegate.m in Sources */,
+				5A069E0B1CB75A8F0014E66F /* JWWebviewController.m in Sources */,
 				5A069DD81CB75A460014E66F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +502,7 @@
 				5A069E021CB75A460014E66F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A069E031CB75A460014E66F /* Build configuration list for PBXNativeTarget "JWWebviewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				5A069E051CB75A460014E66F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A069E061CB75A460014E66F /* Build configuration list for PBXNativeTarget "JWWebviewControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				5A069E081CB75A460014E66F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

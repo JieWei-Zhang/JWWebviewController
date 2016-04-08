@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "JWWebviewController.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)Go:(id)sender {
+    JWWebviewController* webViewController = [[JWWebviewController alloc] initWithUrl:[NSURL URLWithString:@"http://www.baidu.com"]];
+    [self.navigationController pushViewController:webViewController animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
